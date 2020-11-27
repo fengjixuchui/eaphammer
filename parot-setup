@@ -43,8 +43,8 @@ if __name__ == '__main__':
     print('\ncomplete!\n')
 
 
-    print('\n[*] Installing Kali dependencies...\n')
-    os.system('apt -y install %s' % read_deps_file('kali-dependencies.txt'))
+    print('\n[*] Installing Parot dependencies...\n')
+    os.system('apt -y install %s' % read_deps_file('parot-dependencies.txt'))
     print('\n[*] complete!\n')
 
     print('\n[*] Installing Python dependencies...\n')
